@@ -4,9 +4,11 @@
     font-family:'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 body{
     background: #000;
 }
+
 .card{
     width: 100%;
     max-width: 375px;
@@ -19,12 +21,14 @@ body{
     padding: 35px 35px;
     text-align: center;
 }
+
 .search{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .search input{
     border: 0;
     outline: 0;
@@ -38,6 +42,7 @@ body{
     margin-right: 10px;
     font-size: 18px;
 }
+
 .search button{
     
     border: 0;
@@ -50,24 +55,29 @@ body{
     min-height: 60px;
     cursor: pointer;
 }
+
 .search button img{
     width: 30px;
 }
+
 .weather-icon{
     width: 200px;
     margin-top: 0px;
 }
+
 .weather h1{
     font-size: 60px;
     font-weight: 500;
     margin-top: -10px;
 
 }
+
 .weather h2{
     font-size: 40px;
     font-weight: 400;
     margin-top: -5px;
 }
+
 .details{
     display: flex;
     align-items: center;
@@ -76,11 +86,13 @@ body{
     margin-top: 30px;
 
 }
+
 .line1{
     padding: 5px 0;
     font-size: 20px;
     font-weight: 400;
 }
+
 .line2{
     font-size: 20px;
     min-width: 108.96px;

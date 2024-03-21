@@ -1,8 +1,10 @@
 const APIkey = "9ad21f74bc5c85eefc4acfe305a0a44e";
 const API = "https://api.openweathermap.org/data/2.5/weather?appid=9ad21f74bc5c85eefc4acfe305a0a44e&units=metric&q=";
+
 const input=document.querySelector(".search input");
 const btn=document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
+
 const getWeather = async(city) => {
     const response= await fetch(API+city);
     var data = await response.json();
@@ -26,7 +28,9 @@ const getWeather = async(city) => {
         weatherIcon.src="images/snow.png";
     };
 }
+
 getWeather("Mumbai");
+
 btn.addEventListener("click",()=>{
     getWeather(input.value);
 });
